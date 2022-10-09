@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/products/f2.jpg">
+</head>
+
+<body>
+     <!-- section 1 header and navbar -->
+
+     <section id="header">
+        <a href=""><img src="img/logo.png" class="logo" alt="logo"></a>
+        <div id>
+            <ul id="navbar">
+                <li><a class="active" href="home">Home</a></li>
+                <li><a href="shop">shop</a></li>
+                <li><a href="signin" id="signn">sign in <span id="boldd">NOW</span></a></li>
+                <li id="lg-bag"><a href="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+    <!--  هنا يا حب-->
+     <section id="cart" class="section-p1">
+     <table width="100%" >
+     <th>
+        <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+        </tr>
+     </th>
+     <tb>
+        <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td> <img src="img/products/f1.jpg" alt=""></td>
+            <td>Cartoon Astronauts T-Shirts</td>
+            <td>$118.19</td>
+            <td> <input type="number" value="1"></td>
+            <td>$118.19</td>
+        </tr>
+        <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td> <img src="img/products/f2.jpg" alt=""></td>
+            <td>Cartoon Astronauts T-Shirts</td>
+            <td>$118.19</td>
+            <td> <input type="number" value="1"></td>
+            <td>$118.19</td>
+        </tr>
+        <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td> <img src="img/products/f3.jpg" alt=""></td>
+            <td>Cartoon Astronauts T-Shirts</td>
+            <td>$118.19</td>
+            <td> <input type="number" value="1"></td>
+            <td>$118.19</td>
+        </tr>
+     </tb>
+    </table>
+     </section>
+
+     <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+
+        </div>
+           <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Card Subtotal</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+           </div>
+     </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>contact</h4>
+            <p><strong>address:</strong> 49 jsfbdgj fnlnsdn blk</p>
+            <p><strong>phone:</strong> +01 9734 4563 7337</p>
+            <p><strong>hours:</strong> 10:00 18:00,mon - sat</p>
+            <div class="follow">
+                <h4> follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>about</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery</a>
+            <a href="#">policy</a>
+            <a href="#">term</a>
+            <a href="#">contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">veiw Cart</a>
+            <a href="#">My wishlist</a>
+            <a href="#">track my order</a>
+            <a href="#">Help </a>
+        </div>
+        <div class="col install">
+            <h4>install app</h4>
+            <p>from app store</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p> secured payment Gataway</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    </footer>
+    <div class="copyrigth">
+        <p>&copy; 2022,7ox omar,Ammar,Philo</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
